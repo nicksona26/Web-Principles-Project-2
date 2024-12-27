@@ -1,0 +1,118 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; 
+}
+
+#container2 {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 700px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+h2 {
+    color: #1d1d1d; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007bff; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input[type="submit"]:hover {
+    background-color: #007bff; 
+}
+
+select {
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23333" d="M7 10l5 5 5-5z"/></svg>'); /* Dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+#formBtn, #listBtn {
+    background-color: #007bff; 
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    margin: auto 5px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+#container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.form-group {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    margin-top:12px;
+}
+
+
+input.error-field[type="text"],
+input.error-field[type="email"],
+input.error-field[type="tel"],
+select.error-field {
+    background-color: #ff8b8b; /* Red background */
+}
+
+

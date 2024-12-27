@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folders</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container1">
+        <a href="index.html" id="formBtn">Student Booking Form</a>
+        <a href="page2.html" id="listBtn">Students Registered</a>
+    </div>
+
+    <div id="container2"> 
+        <h2>Student Booking Form</h2>
+        <form id="bookingForm" name="bookingForm" action="main.php" method="post">
+            <div class="form-group">
+                <input type="text" id="studentID" name="studentID" placeholder="Student ID (99999999)">
+            </div>
+            <div class="form-group">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="text" id="projectTitle" name="projectTitle" placeholder="Project Title">
+            </div>
+            <div class="form-group">
+                <input type="text" id="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number (999-999-9999)">
+            </div>
+            <div class="form-group">
+                <select id="timeSlot" name="timeSlot">
+                    <option value="" disabled selected>Select a Time Slot</option>
+                    <option value="12:00pm - 1:00pm">12:00pm - 1:00pm</option>
+                    <option value="1:00pm - 2:00pm">1:00pm - 2:00pm</option>
+                    <option value="2:00pm - 3:00pm">2:00pm - 3:00pm</option>
+                    <option value="3:00pm - 4:00pm">3:00pm - 4:00pm</option>
+                    <option value="4:00pm - 5:00pm">4:00pm - 5:00pm</option>
+                    <option value="5:00pm - 6:00pm">5:00pm - 6:00pm</option>
+                </select>
+            </div>
+            <input type="submit" value="Book Seat">
+        </form>        
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>
